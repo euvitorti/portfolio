@@ -7,8 +7,9 @@
 }
 
 body {
-    /* 100 % DA TELA VAI SER PREÊNCHIDA */
-    height: 100vh;
+    /* 100 % DA TELA VAI SER PREÊNCHIDA
+    height: 100vh; */
+
     /* NADA VAI SAIR DA CLASSE PAI */
     box-sizing: border-box;
     /* color: white;
@@ -20,7 +21,7 @@ body {
 }
 
 .inicio {
-    margin: 10% 15%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,7 +52,7 @@ p {
     gap: 35px;
 }
 
-.subtitulo{
+.subtitulo {
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
     font-size: 24px;
@@ -76,6 +77,17 @@ p {
 }
 
 /* ESTILIZAR QUANDO O MOUSE PASSAR POR CIMA */
-.acessar-link:hover{
+.acessar-link:hover {
     background-color: #E7E8E7;
+}
+
+/* FOOTER */
+.rodape {
+    color: white;
+    background-color: #68BCF3;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
