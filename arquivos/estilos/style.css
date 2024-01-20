@@ -16,8 +16,21 @@ body {
     background-color: black; */
 }
 
-.destacar-titulo {
+.cabecalho{
+    padding: 2% 0 0 15%;
+}
+
+.menu{
+    display: flex;
+    gap: 8%;
+}
+
+.menu-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
     color: #68BCF3;
+    text-decoration: none   ;
 }
 
 .inicio {
@@ -37,6 +50,10 @@ body {
 h1 {
     font-size: 36px;
     font-family: 'Krona One', sans-serif;
+}
+
+.destacar-titulo {
+    color: #68BCF3;
 }
 
 p {
