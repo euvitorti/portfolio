@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* 100 % DA TELA VAI SER PREÊNCHIDA */
+    box-sizing: border-box;
+    /* NADA VAI SAIR DA CLASSE PAI */
+    height: 100vh;
+    color: white;
+    background-color: black;
+}
+
+a {
+    color: #13678A;
+}
+
+.destacar-titulo {
+    color: #13678A;
+}
+
+.inicio{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
