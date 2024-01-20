@@ -26,3 +26,15 @@ a {
     align-items: center;
     justify-content: space-between;
 }
+
+.conteudo{
+    width: 615px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+p{
+    font-size: 24px;
+}
