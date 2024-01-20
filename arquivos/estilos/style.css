@@ -1,19 +1,20 @@
 /* FONTE */
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+/* VARIABLES */
+:root{
+    --azul: #68BCF3;
+}
+
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    /* 100 % DA TELA VAI SER PREÊNCHIDA
-    height: 100vh; */
-
     /* NADA VAI SAIR DA CLASSE PAI */
     box-sizing: border-box;
-    /* color: white;
-    background-color: black; */
 }
 
 .cabecalho{
@@ -29,7 +30,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: #68BCF3;
+    color: var(--azul);
     text-decoration: none   ;
 }
 
@@ -76,7 +77,6 @@ p {
 }
 
 .acessar-link {
-    /* background-color: #68BCF3; */
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -101,7 +101,7 @@ p {
 /* FOOTER */
 .rodape {
     color: white;
-    background-color: #68BCF3;
+    background-color: var(--azul);
     text-align: center;
     padding: 20px;
     font-family: 'Montserrat', sans-serif;
