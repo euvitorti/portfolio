@@ -1,40 +1,63 @@
+/* FONTE */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    /* 100 % DA TELA VAI SER PREÊNCHIDA */
-    box-sizing: border-box;
     /* NADA VAI SAIR DA CLASSE PAI */
+    box-sizing: border-box;
+    /* 100 % DA TELA VAI SER PREÊNCHIDA */
     height: 100vh;
     color: white;
     background-color: black;
-}
-
-a {
-    color: #13678A;
 }
 
 .destacar-titulo {
     color: #13678A;
 }
 
-.inicio{
-    margin: 10px;
+.inicio {
+    margin: 10px 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.conteudo{
+.conteudo {
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
-h1{
+h1 {
     font-size: 36px;
+    font-family: 'Krona One', sans-serif;
 }
 
-p{
+p {
     font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inicio .links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.acessar-link {
+    background-color: #FAE360;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    /* TIRANDO O SUBLINHADO */
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
 }
