@@ -27,7 +27,8 @@ Abra o arquivo index.html no seu navegador para ver as mudanças.
 - HTML5
 - CSS3
 - JavaScript
-- Contribuição
+
+## Contribuição
 
 Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões para melhorias, sinta-se à vontade para abrir uma issue ou fazer um pull request.
 
