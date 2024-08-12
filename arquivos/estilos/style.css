@@ -45,6 +45,22 @@ body {
     text-decoration: none;
 }
 
+.language-select {
+    background-color: white;
+    color: var(--azul);
+    font-size: 1rem;
+    /* font-weight: 600; */
+    padding: 0rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.language-select:hover {
+    background-color: #E7E8E7;
+}
+
 .inicio {
     padding: 5% 15%;
     display: flex;
@@ -187,6 +203,11 @@ p {
 
     .menu {
         justify-content: center;
+    }
+
+    .language-select {
+        font-size: 0.7rem;
+        padding: 0.3rem;
     }
 
     /* COLOCANDO A IMAGEM NO TOPO */
